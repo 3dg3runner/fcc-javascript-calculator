@@ -1,0 +1,88 @@
+html {
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+
+#calculator-container {
+  background-color: black;
+  width: 350px;
+  min-height: 430px;
+  margin: 15% auto auto auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-flow: column;
+  box-shadow: -4px 4px 10px black;
+}
+
+#display-container {
+  width: 100%;
+  min-height: 50px;
+  font-family: Consolas, sans-serif;
+}
+
+#past-display {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -15px;
+  padding: 0 1.4rem;
+  color: orange;
+}
+
+#current-display {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -40px;
+  margin-bottom: -15px;
+  padding: 0 1.4rem;
+}
+
+#buttons {
+  width: 320px;
+  height: 360px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.button {
+  background-color: #4D4D4D;
+  margin: 2px;
+  border-radius: 2px;
+  width: 75px;
+  height: 67px;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: yellow;
+}
+
+.button:active {
+  box-shadow: inset 0px 0px 5px white;
+}
+
+#clear {
+  background-color: #AC3939;
+  width: 154px;
+}
+
+#divide, #multiply, #subtract, #add {
+  background-color: #666666;
+}
+
+#equals {
+  margin-top: -70px;
+  background-color: #004466;
+  height: 138px;
+}
+
+#zero {
+  width: 154px;
+}
